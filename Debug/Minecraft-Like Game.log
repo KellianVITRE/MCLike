@@ -1,0 +1,13 @@
+﻿Application.obj : error LNK2019: symbole externe non résolu __imp__glewInit@0 référencé dans la fonction "private: void __thiscall Application::initGLEW(void)" (?initGLEW@Application@@AAEXXZ)
+Application.obj : error LNK2019: symbole externe non résolu _glfwInit référencé dans la fonction "private: void __thiscall Application::initGLFW(void)" (?initGLFW@Application@@AAEXXZ)
+Application.obj : error LNK2019: symbole externe non résolu _glfwGetTime référencé dans la fonction "public: void __thiscall Application::run(void)" (?run@Application@@QAEXXZ)
+Context.obj : error LNK2019: symbole externe non résolu _glfwCreateWindow référencé dans la fonction "public: __thiscall Context::Context(int,int,char const *)" (??0Context@@QAE@HHPBD@Z)
+Context.obj : error LNK2019: symbole externe non résolu _glfwDestroyWindow référencé dans la fonction "public: __thiscall Context::~Context(void)" (??1Context@@QAE@XZ)
+Context.obj : error LNK2019: symbole externe non résolu _glfwGetWindowSize référencé dans la fonction "public: int __thiscall Context::getHeight(void)" (?getHeight@Context@@QAEHXZ)
+Context.obj : error LNK2019: symbole externe non résolu _glfwPollEvents référencé dans la fonction "public: void __thiscall Context::pollEvents(void)" (?pollEvents@Context@@QAEXXZ)
+Context.obj : error LNK2019: symbole externe non résolu _glfwMakeContextCurrent référencé dans la fonction "public: void __thiscall Context::use(void)" (?use@Context@@QAEXXZ)
+Context.obj : error LNK2019: symbole externe non résolu _glfwSwapBuffers référencé dans la fonction "public: void __thiscall Context::swapBuffers(void)" (?swapBuffers@Context@@QAEXXZ)
+A:\Documents\Programmation\OpenGL\Lib\GLEW\glew-2.1.0\lib\Release\x64\glew32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+A:\Documents\Programmation\OpenGL\Lib\GLEW\glew-2.1.0\lib\Release\x64\glew32s.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+A:\Documents\Programmation\OpenGL\Lib\GLFW\glfw-3.2.1\lib-vc2015\glfw3.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+A:\Documents\Programmation\OpenGL\Minecraft-Like\Project\Debug\Minecraft-Like Game.exe : fatal error LNK1120: 9 externes non résolus

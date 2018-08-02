@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{009d7783-faa0-4004-9ce2-c547c41a874d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e453ea11-1b0c-41a3-823a-5036953514dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{7fd92cda-1e45-4cd7-8956-1f3cf8e38798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Application">
+      <UniqueIdentifier>{53be3ef1-cfbc-4711-9d32-ee22f904024c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application">
+      <UniqueIdentifier>{3cb00609-551b-4157-b7a8-5e3811a1f774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Application\Context">
+      <UniqueIdentifier>{037bcaf9-a98a-4f34-b1e5-61ef1debe843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application\Context">
+      <UniqueIdentifier>{5dfad140-b293-4382-9706-37b53fe5cd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OpenGL Utils">
+      <UniqueIdentifier>{5b9f5408-76ab-4523-909e-a458f119c5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\OpenGL Utils">
+      <UniqueIdentifier>{8865bbb0-ccea-42ed-9203-63904d6f1084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source\Application\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source\OpenGL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkModel.cpp" />
+    <ClCompile Include="CubeMesh.cpp" />
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header\Application\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header\OpenGL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkModel.h" />
+    <ClInclude Include="CubeMesh.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basicShader.fs">
+      <Filter>Ressources</Filter>
+    </None>
+    <None Include="Shaders\basicShader.vs">
+      <Filter>Ressources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
